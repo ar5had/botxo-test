@@ -1,0 +1,23 @@
+.data-viewer-sections {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.data {
+}
+
+.button-wrapper {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.button-wrapper button {
+  width: calc(50% - 10px);
+  display: inline-block;
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+}

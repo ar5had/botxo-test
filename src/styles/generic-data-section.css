@@ -1,0 +1,23 @@
+.fields-wrapper {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: 1fr 80px 20px;
+  margin-bottom: 20px;
+}
+
+.trash-icon {
+  align-self: end;
+  margin-bottom: 0px;
+  width: 26px;
+  border-radius: 5px;
+  transition: border-color .2s ease;
+  height: 26px;
+  border: solid 1px var(--light-gray);
+  padding: 5px;
+  background: var(--off-white);
+}
+
+.trash-icon:hover {
+  cursor: pointer;
+  border-color: var(--black);
+}
